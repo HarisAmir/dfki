@@ -7,21 +7,22 @@ This project demonstrates hand tracking using MediaPipe and OpenCV in Python. It
 
 1. **Clone the repository:**
 
-     ```bash
+    ```bash
    git clone https://github.com/HarisAmir/dfki.git
    cd dfki
-   
+   ```
 2. **Create Conda environment:**
 
     ```bash
     conda create --name hand_detection python=3.x
     conda activate hand_detection
     pip install -r requirements.txt
-
+    ```
 3.  **Run the script:**
 
-   ```bash
-   python detection.py
+    ```bash
+    python detection.py
+    ```
    
 ## Output
 
