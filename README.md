@@ -29,3 +29,5 @@ This project demonstrates hand tracking using MediaPipe and OpenCV in Python. It
 1. **output.mp4**: This file contains the video output with hand tracking visualization.
 
 2. **output_angles.json**: This JSON file contains the hand angles data computed during the video processing.
+
+![Hand Tracking Example](output.png)
