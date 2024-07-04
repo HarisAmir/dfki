@@ -1,0 +1,9 @@
+Q.1 How many degrees of freedom does each joint have?
+Ans: Joints 0,1,5,9,13 have 3 DOF, joints 2,6,10,14,18 have 2 DOF while joints 3,7,11,15,19 have 1 DOF
+
+
+Q.2 Is there a way to compute the rotation matrices for each joint from their joint angles?
+Ans: Since we have 3 coordinates (x,y,z) you can use the extracted landmark positions to compute the rotation matrix. Depending on the joint representation (e.g., Euler angles, axis-angle representation, etc.), you can construct the rotation matrix using appropriate mathematical formulas.
+
+Q.3 How do we compute the length of each bone of the hand?
+Ans: We can simply take the Euclidean Distance between 2 joints to calculate bone length in pixels. We would have to convert that into centimeters by taking into account the depth and specifics (resolution) of the camera being used.
